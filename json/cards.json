@@ -1,0 +1,44 @@
+[
+    {
+      "dex": 6,
+      "name": "Charizard SWSH260",
+      "type": "Fire",
+      "set": "SWSH Promo",
+      "rarity": "Special Illustration Rare",
+      "owned": true,
+      "image": "../images/SWSHPromo/CharizardV.png",
+      "description": "Spits fire that is hot enough to melt boulders."
+    },
+    {
+        "dex": 6,
+        "name": "Charizard SWSH261",
+        "type": "Fire",
+        "set": "SWSH Promo",
+        "rarity": "Special Illustration Rare",
+        "owned": true,
+        "image": "../images/SWSHPromo/CharizardVMAX.png",
+        "description": "Spits fire that is hot enough to melt boulders."
+    },
+    {
+        "dex": 6,
+        "name": "Charizard SWSH262",
+        "type": "Fire",
+        "set": "SWSH Promo",
+        "rarity": "Special Illustration Rare",
+        "owned": true,
+        "image": "../images/SWSHPromo/CharizardVSTAR.png",
+        "description": "Spits fire that is hot enough to melt boulders."
+    },
+    {
+      "dex": 150,
+      "name": "Mewtwo",
+      "type": "Psychic",
+      "set": "Surging Sparks",
+      "rarity": "Illustration Rare",
+      "owned": false,
+      "image": "",
+      "description": ""
+    }
+  ]
+  
+  

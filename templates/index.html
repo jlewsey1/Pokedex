@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokédex Collection</title>
+  <link rel="stylesheet" href="../../static/css/styles.css">
+</head>
+<body>
+  <h1>My Pokédex Collection</h1>
+
+  <input id="searchInput" type="text" placeholder="Search by name, type, or set">
+  <select id="sortSelect">
+    <option value="dex">Sort by Dex Number</option>
+    <option value="name">Sort by Name</option>
+  </select>
+  <select id="rarityFilter">
+    <option value="">All Rarities</option>
+    <option value="Amazing Rare">Amazing Rare</option>
+    <option value="Gold">Gold</option>
+    <option value="Illustration Rare">Illustration Rare</option>
+    <option value="Radiant">Radiant</option>
+    <option value="Special Illustration Rare">Special Illustration Rare</option>
+    <option value="Trainer Gallery">Trainer Gallery</option>
+  </select>
+
+  <div id="cardGrid" class="grid"></div>
+  <div id="pagination" class="pagination"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">×</span>
+      <h2 id="modalName"></h2>
+      <img id="modalImage" src="" alt="">
+      <p id="modalDetails"></p>
+      <p id="modalSet"></p>
+      <p id="modalRarity"></p>
+      <button id="toggleOwnedBtn">Mark as Owned</button>
+    </div>
+  </div>
+
+  <script src="../../static/js/script.js"></script>
+</body>
+</html>

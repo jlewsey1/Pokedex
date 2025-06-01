@@ -1,0 +1,23 @@
+<!-- templates/edit_card.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Card</title>
+</head>
+<body>
+  <h1>Edit Card: {{ card.name }}</h1>
+  <form method="POST">
+    <label>Dex Number: <input type="number" name="dex" value="{{ card.dex }}"></label><br>
+    <label>Name: <input type="text" name="name" value="{{ card.name }}"></label><br>
+    <label>Type: <input type="text" name="type" value="{{ card.type }}"></label><br>
+    <label>Set: <input type="text" name="set" value="{{ card.set }}"></label><br>
+    <label>Rarity: <input type="text" name="rarity" value="{{ card.rarity }}"></label><br>
+    <label>Description: <textarea name="description">{{ card.description }}</textarea></label><br>
+    <label>Image URL: <input type="text" name="image" value="{{ card.image }}"></label><br>
+    <label>Owned: <input type="checkbox" name="owned" {% if card.owned %}checked{% endif %}></label><br>
+    <button type="submit">Save Changes</button>
+    <a href="{{ url_for('admin') }}">Cancel</a>
+  </form>
+</body>
+</html>
